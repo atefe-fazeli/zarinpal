@@ -1,0 +1,38 @@
+.navbarcontainer{
+    display: flex;
+    max-width: 75%;
+    /* background-color: aliceblue; */
+    position: sticky;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.buttonandlistcontainer{
+    display: flex;
+margin: 20px 40px;
+
+}
+
+.logocontainer{
+margin: 20px 40px;
+}
+
+.mainlistcontainer{
+}
+
+.listcontainer{
+display: flex;
+}
+li{
+    margin-right: 30px;
+    list-style: none;
+}
+
+.buttoncontainer{
+}
+button{
+    border-radius: 30px;
+    padding:3px 35px;
+    margin-right: 50px;
+}

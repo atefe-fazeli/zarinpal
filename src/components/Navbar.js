@@ -1,11 +1,13 @@
 import React from 'react';
+import styles from "./Navbar.module.css"
 
 const Navbar = () => {
     return (
-        <div>
-            <div></div>
-            <div>
-                <ul>
+        <div className={styles.navbarcontainer}>
+            <div className={styles.logocontainer}>لوگو</div>
+            <div className={styles.buttonandlistcontainer}>
+            <div className={styles.mainlistcontainer}>
+                <ul className={styles.listcontainer}>
                     <li>تعرفه ها </li>
                     <li>اپلیکیشن</li>
                     <li>سوالات متداول</li>
@@ -13,7 +15,8 @@ const Navbar = () => {
                     <li>تماس با ما</li>
                 </ul>
             </div>
-            <div><button>زرین پال من</button></div>
+            <button>زرین پال من</button>
+            </div>
             
         </div>
     );

@@ -1,0 +1,8 @@
+.banerimagecontainer{
+    background: url(https://www.zarinpal.com/assets/images/home.svg?c6c0b9504cbf3274eeaac49e1aa71fb4) no-repeat 50%;
+    width: 500px;
+    height: 534px;
+}
+.banermaincontainer{
+    display: flex;
+}

@@ -8,7 +8,7 @@ import { TiSocialLinkedin } from "react-icons/ti";
 import { SiAparat } from "react-icons/si";
 
 
-import aparat from '../images/aparat.png';
+// import aparat from '../images/aparat.png';
 
 
 
@@ -59,11 +59,11 @@ const Footer = () => {
 
                 <div className={styles.socialdivcontainer}>
                 <h2>زرین پال در شبکه های اجتماعی:</h2>
-                    <Link to="/"><GrTwitter/></Link>
-                    <Link to="/"><FaInstagram/></Link>
-                    <Link to="/"><FaTelegramPlane/></Link>
-                    <Link to="/"><TiSocialLinkedin/></Link>
-                    <Link to="/"><SiAparat/></Link>
+                    <Link to="/" className={styles.sociallinks}><GrTwitter/></Link>
+                    <Link to="/" className={styles.sociallinks}><FaInstagram/></Link>
+                    <Link to="/" className={styles.sociallinks}><FaTelegramPlane/></Link>
+                    <Link to="/" className={styles.sociallinks}><TiSocialLinkedin/></Link>
+                    <Link to="/" className={styles.sociallinks}><SiAparat/></Link>
 
 
                     {/* <Link to="/"> {aparat}</Link> */}

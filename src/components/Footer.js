@@ -3,6 +3,14 @@ import {Link} from "react-router-dom"
 import styles from "./Footer.module.css"
 import { GrTwitter } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { SiAparat } from "react-icons/si";
+
+
+import aparat from '../images/aparat.png';
+
+
 
 
 const Footer = () => {
@@ -53,8 +61,13 @@ const Footer = () => {
                 <h2>زرین پال در شبکه های اجتماعی:</h2>
                     <Link to="/"><GrTwitter/></Link>
                     <Link to="/"><FaInstagram/></Link>
-                    <Link to="/"></Link>
-                    <Link to="/"></Link>
+                    <Link to="/"><FaTelegramPlane/></Link>
+                    <Link to="/"><TiSocialLinkedin/></Link>
+                    <Link to="/"><SiAparat/></Link>
+
+
+                    {/* <Link to="/"> {aparat}</Link> */}
+
                 </div>
 
             </div>

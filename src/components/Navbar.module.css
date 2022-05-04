@@ -1,21 +1,23 @@
 .navbarcontainer{
     display: flex;
-    max-width: 75%;
+    /* max-width: 75%; */
     /* background-color: aliceblue; */
     position: sticky;
     justify-content: space-between;
-    margin: auto;
+    
 
 }
 
 .buttonandlistcontainer{
     display: flex;
-margin: 20px 40px;
+    margin: 20px 40px;
 
 }
 
 .logocontainer{
 margin: 20px 40px;
+width: 250px;
+background: url(https://www.zarinpal.com/assets/images/logo-white.svg?3642e7e8240cea11a65d01e94611e260) no-repeat;
 }
 
 .mainlistcontainer{
@@ -32,7 +34,9 @@ li{
 .buttoncontainer{
 }
 button{
+    background-color: rgba(232,239,254,.6);
     border-radius: 30px;
+    border:none;
     padding:3px 35px;
     margin-right: 50px;
 }

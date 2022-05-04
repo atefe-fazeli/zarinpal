@@ -1,0 +1,79 @@
+.footermaincontainer{
+    display: flex;
+    /* max-width: 75%; */
+  
+    flex-direction: column;
+
+}
+.firstdivcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid silver;
+    border-radius: 15px;
+    max-width: 100%;
+}
+.firstdivcontainer button{
+    width: fit-content;
+    padding: 15px 20px;
+    background-color: yellow;
+    border-radius: 12px;
+}
+.firstdivcontainer h1{
+    line-height: 4rem;
+    font-weight: 700;
+
+}
+
+.firstdivcontainer h3{
+    line-height: 4rem;
+    font-weight: 700;
+    color:#78909c ;
+
+}
+.seconddivcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(30, 76%, 93%);
+    border-radius: 60px;
+    padding:  20px 50px;
+    margin-top: 50px;
+
+}
+.thireddivcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+   
+    padding:  20px 50px;
+    margin-top: 50px;
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+}
+
+.thireddivcontainer div{
+    justify-content: start;
+    flex:1;
+    
+}
+.socialdivcontainer{
+    flex: 2 !important;
+    background-color: red;
+
+}
+.footerspan{
+    color: #21457f;
+    margin-right: 20px;
+
+}
+.footerlink{
+    display: block;
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .thireddivcontainer div{
+        min-width: 50%;
+    }
+}

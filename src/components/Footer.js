@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom"
 import styles from "./Footer.module.css"
+import { GrTwitter } from "react-icons/gr";
+import { FaInstagram } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -49,8 +51,8 @@ const Footer = () => {
 
                 <div className={styles.socialdivcontainer}>
                 <h2>زرین پال در شبکه های اجتماعی:</h2>
-                    <Link to="/"></Link>
-                    <Link to="/"></Link>
+                    <Link to="/"><GrTwitter/></Link>
+                    <Link to="/"><FaInstagram/></Link>
                     <Link to="/"></Link>
                     <Link to="/"></Link>
                 </div>

@@ -2,7 +2,32 @@
     background: url(https://www.zarinpal.com/assets/images/home.svg?c6c0b9504cbf3274eeaac49e1aa71fb4) no-repeat 50%;
     width: 500px;
     height: 534px;
+
+
+    
 }
-/* .banermaincontainer{
+.banermaincontainer{
     display: flex;
-} */
+    background-image: linear-gradient(135deg,#21254e,#2b4a83);
+    border-radius: 20px;
+    padding:40px 20px 85px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+.banermaincontainer div{
+    flex: 1;
+
+}
+.firstdivgodown{
+    background-color: aquamarine;
+    /* z-index: 6; */
+    position: absolute;
+    top:0px;
+    left: 0px;
+
+
+}
+.seconddivgodown{
+    background: url(https://www.zarinpal.com/assets/images/arrowbottom.svg?6588af1e1354de9198542e58bf5e3224);
+}

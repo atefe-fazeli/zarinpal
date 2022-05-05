@@ -3,6 +3,7 @@ import styles from './Baner.module.css'
 
 const Baner = () => {
     return (
+        <>
         <div className={styles.banermaincontainer}>
             <div>
                 <h1>
@@ -22,12 +23,14 @@ const Baner = () => {
                 <button>ثبت نام</button>
                 <button>ورود</button>
             </div>
-            <div className={styles.banerimagecontainer}>
-hi
-            </div>
-            
-            
+            <div className={styles.banerimagecontainer}></div>
+
+            <div className={styles.firstdivgodown}>
+                <div className={styles.seconddivgodown}></div>
+            </div> 
         </div>
+         
+         </>
     );
 };
 

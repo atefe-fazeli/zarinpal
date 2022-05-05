@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './SextionSix.module.css'
+// import styles from './SextionSix.module.css'
 
 const SectionSix = () => {
     return (
-        <div className={styles.SecSixMainContainer}>
+        <div >
             <div>
                 <h1>ویژگی‌های درگاه پرداخت زرین‌پال</h1>
                 <p>درگاه پرداخت اینترنتی زرین‌پال، امکان مدیریت تراکنش‌های مالی در بستر وب را به راحتی امکان‌پذیر می‌کند و با پیاده‌سازی و اجرای راه‌کارهای هوشمندانه، باعث افزایش درصد تراکنش‌های موفق و سوددهی بیش‌تر می‌شود.</p>

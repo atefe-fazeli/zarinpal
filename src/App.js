@@ -6,6 +6,7 @@ import SectionOne from './components/SectionOne';
 import SectionThree from './components/SectionThree';
 import SectionTwo from './components/SectionTwo';
 import SectionFour from './components/SectionFour'
+import SectionFive from './components/SectionFive';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <SectionTwo />
      <SectionThree/>
      <SectionFour/>
+     <SectionFive/>
      <Footer />
      
     </div>

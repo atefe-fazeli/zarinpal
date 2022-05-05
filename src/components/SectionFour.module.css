@@ -1,5 +1,7 @@
 .SecFourContainer{
     display: flex;
+    margin-bottom: 50px;
+
 }
 
 .SecFourContainer div{
@@ -7,6 +9,6 @@
 }
 
 .SecFourImgContainer{
-    background: url(https://www.zarinpal.com/assets/images/zarinplus.svg?257fe53db044a8341a572e810201edeb);
+    background: url(https://www.zarinpal.com/assets/images/payout.svg?4ced9ef15ae5179ef1a4ed8f7fcc70c3);
     background-repeat: no-repeat;
 }

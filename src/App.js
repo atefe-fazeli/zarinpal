@@ -3,6 +3,7 @@ import Baner from './components/Baner';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import SectionOne from './components/SectionOne';
+import SectionThree from './components/SectionThree';
 import SectionTwo from './components/SectionTwo';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
      <Baner/>
      <SectionOne />
      <SectionTwo />
+     <SectionThree/>
      <Footer />
      
     </div>

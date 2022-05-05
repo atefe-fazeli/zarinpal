@@ -1,0 +1,13 @@
+.SecThreeMainContainer{
+    display: flex;
+}
+
+.SecThreeMainContainer div{
+    flex: 1;
+}
+
+.SecThreeImgContainer{
+    background: url(https://www.zarinpal.com/assets/images/zarincard%20.svg?2932b097894c2b89bf50ec3ba3bafa7b);
+    background-repeat: no-repeat;
+    
+}

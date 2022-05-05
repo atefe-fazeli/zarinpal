@@ -2,5 +2,12 @@
     display: flex;
 }
 .SecOneImgContainer{
-    
+    background: url(https://www.zarinpal.com/assets/images/pg.svg?fcb7e851df9bbca0ac18e18975ff671c);
+    background-repeat: no-repeat;
+    /* width:1000px; */
+    height: 700px;
+    /* flex: 2; */
+}
+.SecOneMainContainer div{
+    flex:1;
 }

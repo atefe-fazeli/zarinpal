@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './SecTwo.module.css'
 
 const SectionTwo = () => {
     return (

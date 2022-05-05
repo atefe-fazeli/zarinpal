@@ -1,0 +1,16 @@
+.SecTwoImgContainer{
+    background: url(https://www.zarinpal.com/assets/images/social-image.svg?dccbec469eb82d98159f55e3e379c928);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+
+.SecTwoContainer{
+    display: flex;
+
+}
+
+.SecTwoContainer div{
+    flex: 1;
+
+}

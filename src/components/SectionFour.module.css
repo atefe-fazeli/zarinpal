@@ -1,0 +1,12 @@
+.SecFourContainer{
+    display: flex;
+}
+
+.SecFourContainer div{
+    flex: 1;
+}
+
+.SecFourImgContainer{
+    background: url(https://www.zarinpal.com/assets/images/zarinplus.svg?257fe53db044a8341a572e810201edeb);
+    background-repeat: no-repeat;
+}

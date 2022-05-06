@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import styles from './SectionOne.module.css'
 
 const SectionOne = () => {
+    // const myRef = useRef(null)
+
+    
     return (
-        <div className={styles.SecOneMainContainer}>
+        <div className={styles.SecOneMainContainer} >
 
             <div className={styles.SecOneImgContainer}></div>
 

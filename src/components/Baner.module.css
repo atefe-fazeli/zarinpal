@@ -10,24 +10,43 @@
     display: flex;
     background-image: linear-gradient(135deg,#21254e,#2b4a83);
     border-radius: 20px;
-    padding:40px 20px 85px;
+    /* padding:40px 20px 85px; */
     margin-bottom: 50px;
     margin-top: 50px;
     position: relative;
+   
 }
 .banermaincontainer div{
     flex: 1;
+    color:white;
+
+
 
 }
 .firstdivgodown{
-    background-color: aquamarine;
-    /* z-index: 6; */
+    /* background-color: red; */
     position: absolute;
-    top:0px;
-    left: 0px;
+    width: 100%;
+    height: 100px;
+    top: 499px;
+    
 
 
 }
 .seconddivgodown{
-    background: url(https://www.zarinpal.com/assets/images/arrowbottom.svg?6588af1e1354de9198542e58bf5e3224);
+    background: url(https://www.zarinpal.com/assets/images/arrowbottom.svg?6588af1e1354de9198542e58bf5e3224) no-repeat;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 164px;
+    height: 78px;
+}
+.banericon{
+    /* display: inline-block; */
+    font-size: 32px;
+    color: #21254e;
+    position: relative;
+    bottom: -10px;
+    cursor: pointer;
+    /* z-index: 1000; */
 }

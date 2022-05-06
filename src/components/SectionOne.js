@@ -6,7 +6,7 @@ const SectionOne = () => {
 
     
     return (
-        <div className={styles.SecOneMainContainer} >
+        <div className={styles.SecOneMainContainer} id="sectionone" >
 
             <div className={styles.SecOneImgContainer}></div>
 

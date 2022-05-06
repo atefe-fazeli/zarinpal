@@ -1,15 +1,16 @@
 import React,{useRef}from 'react';
 import styles from './Baner.module.css'
 import { BiChevronDown } from "react-icons/bi";
+import {Link} from 'react-scroll';
 
 const Baner = () => {
-    const myRef = useRef(null)
+    // const myRef = useRef(null)
 
 
     return (
         <>
         <div className={styles.banermaincontainer}>
-            <div ref={myRef}>
+            <div >
                 <h1>
                     بیش از ۱۲ سال
                    انتخاب مطمئنِ کسب                   
@@ -30,7 +31,7 @@ const Baner = () => {
             <div className={styles.banerimagecontainer}></div>
 
             <div className={styles.firstdivgodown}>
-                <div className={styles.seconddivgodown}><i className={styles.banericon} onClick={ () => myRef.current.scrollIntoView() }><BiChevronDown /></i></div>
+                <div className={styles.seconddivgodown}><Link to="sectionone"><i className={styles.banericon} ><BiChevronDown /></i></Link></div>
             </div> 
         </div>
          

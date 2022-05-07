@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
 /* downloaded from https://rokaweb.ir */
@@ -35,6 +36,39 @@ code {
 a{
   text-decoration: none;
   cursor: pointer;
+  
+
 }
+button{
+  background: transparent linear-gradient(270deg,#ffd900,#ffe422) 0 0 no-repeat padding-box;
+  margin-top: 17px;
+    padding: 4px 14px;
+    line-height: 28px;
+    border-radius: 10px;
+    display: inline-block;
+    border: solid;
+    outline: none;
+    margin-left: 10px;
+    white-space: nowrap;
+    margin-top: 17px;
+  
+}
+#readmore{
+  margin-top: 17px;
+  padding: 4px 14px;
+  line-height: 28px;
+  border-radius: 10px;
+  display: inline-block;
+  border: unset;
+  outline: none;
+  margin-left: 10px;
+  white-space: nowrap;
+  margin-top: 17px;
+  background-color: rgba(232,239,254,.6) !important;
+    color: #28457b!important;
+    background:none !important;
+
+}
+
 
 

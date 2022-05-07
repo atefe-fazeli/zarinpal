@@ -8,6 +8,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* downloaded from https://rokaweb.ir */
+/* @font-face { */
+	/* font-family: 'Yekan'; */
+	/* src: url( ./fonts/font-web-optimized-ronakweb.com/ ); */
+	/* src: url( ./fonts/font-web-optimized-ronakweb.com/Yekan.eot ) format( 'embedded-opentype' ), */
+		/* url( ./fonts/font-web-optimized-ronakweb.com/ ) format( 'woff2' ), */
+		/* url( ./fonts/font-web-optimized-ronakweb.com/Yekan.woff ) format( 'woff' ), */
+		/* url( ./fonts/yekan/ ) format( 'truetype' ), */
+		/* url( ./fonts/yekan/) format( 'svg' );  */
+ /* font-weight: normal; */
+	/* font-style: normal; */
+/* } */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,9 +28,13 @@ code {
 * {
   direction: rtl;
   text-align: right;
+	font-family: 'Yekan';
+
 }
 
 a{
   text-decoration: none;
   cursor: pointer;
 }
+
+

@@ -26,7 +26,7 @@ const Baner = () => {
                     و توسعه‌ی کسب‌وکارها، نقش سازنده‌‌ای ایفا کند 
                 </p>
                 <button>ثبت نام</button>
-                <button>ورود</button>
+                <button >ورود</button>
             </div>
             <div className={styles.banerimagecontainer}></div>
 

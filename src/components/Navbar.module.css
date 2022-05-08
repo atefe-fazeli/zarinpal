@@ -40,3 +40,19 @@ button{
     padding:3px 35px;
     margin-right: 50px;
 }
+.productscontainr{
+    display: none;
+
+}
+
+.productsdiv:hover .productscontainr{
+    display: inline-block;
+    position: absolute;
+    background-color: red;
+    color: red;
+
+
+
+
+}
+
